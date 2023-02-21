@@ -13,9 +13,9 @@ export default function createFetchWrapper(apiKey: string, type: AllowedTypes) {
   const options = {
     method: "GET",
     headers: {
-      Accept: "application/json",
-      "Content-Type": "application/json",
-      "User-Agent": "Pexels/JavaScript",
+      // Accept: "application/json",
+      // "Content-Type": "application/json",
+      // "User-Agent": "Pexels/JavaScript",
       Authorization: apiKey,
     },
   };
