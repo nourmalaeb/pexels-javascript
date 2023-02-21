@@ -1,16 +1,16 @@
 {
-  "name": "pexels",
+  "name": "nm-pexels",
   "version": "1.4.0",
   "description": "The official Pexels API Javascript client.",
-  "homepage": "https://github.com/pexels/pexels-javascript",
+  "homepage": "https://github.com/nourmalaeb/pexels-javascript",
   "author": "Joey Farina",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pexels/pexels-javascript.git"
+    "url": "git+https://github.com/nourmalaeb/pexels-javascript.git"
   },
   "bugs": {
-    "url": "https://github.com/pexels/pexels-javascript/issues"
+    "url": "https://github.com/nourmalaeb/pexels-javascript/issues"
   },
   "source": "src/main.ts",
   "main": "dist/main.js",
@@ -28,7 +28,8 @@
     "test": "jest"
   },
   "dependencies": {
-    "isomorphic-fetch": "^3.0.0"
+    "isomorphic-fetch": "^3.0.0",
+    "pexels": "github:nourmalaeb/pexels-javascript"
   },
   "devDependencies": {
     "@types/jest": "^25.2.1",
